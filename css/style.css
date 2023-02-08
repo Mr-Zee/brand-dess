@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap");
+.body {
+  font-family: "Nunito", sans-serif;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: red;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: red;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
