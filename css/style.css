@@ -116,3 +116,28 @@ h1 {
   border: 4px solid transparent;
   position: relative;
 }
+
+.footer {
+  background: #586a6e;
+  height: 500px;
+}
+
+.contact h1 {
+  color: #ffffff;
+}
+
+.form-control {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.form-control:focus {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+.form ::placeholder {
+  color: rgb(255, 255, 255);
+}
