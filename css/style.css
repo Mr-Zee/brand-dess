@@ -19,7 +19,7 @@ h1 {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
 }
-.header-img{
+.header-img {
   margin-left: 184px;
 }
 .header-text {
@@ -144,4 +144,36 @@ h1 {
 }
 .form ::placeholder {
   color: rgb(255, 255, 255);
+}
+
+.left-blur {
+  background: radial-gradient(
+    circle,
+    rgb(255, 195, 220) 0%,
+    rgba(255, 255, 255, 1) 65%
+  );
+}
+.right-blur {
+  background: radial-gradient(
+    circle,
+    rgba(183, 237, 246, 1) 0%,
+    rgba(255, 255, 255, 1) 65%
+  );
+}
+
+.benefits {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.benefit-info {
+  margin-top: 5em;
+}
+
+.baby-img {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  margin-top: 80px;
 }
