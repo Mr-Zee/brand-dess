@@ -161,7 +161,7 @@ h1 {
   background: radial-gradient(
     circle,
     rgb(255, 195, 220) 0%,
-    rgba(255, 255, 255, 1) 65%
+    rgba(255, 255, 255, 1) 70%
   );
 }
 .right-blur {
@@ -183,6 +183,15 @@ h1 {
   margin-top: 5em;
 }
 
+.bubbles {
+  margin-top: 15%;
+}
+
+.bt {
+  margin-top: 14%;
+  display: flex;
+  align-items: center;
+}
 .baby-img {
   position: absolute;
   width: 300px;
