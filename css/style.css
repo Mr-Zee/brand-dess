@@ -5,6 +5,8 @@
 .navbar-nav .nav-link.active,
 .navbar-nav .show > .nav-link {
   color: red;
+  font-family: "Nunito", sans-serif;
+
 }
 .nav-link:focus,
 .nav-link:hover {
@@ -42,7 +44,6 @@ h1 {
     right: 0px;
     height: 534px;
 opacity: 15%;
-
 }
 .line1 {
   position: absolute;
