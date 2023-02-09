@@ -136,6 +136,7 @@ h1 {
   height: 500px;
 }
 
+.contact,
 .contact h1 {
   color: #ffffff;
 }
@@ -184,7 +185,7 @@ h1 {
 }
 
 .bubbles {
-  margin-top: 15%;
+  margin: 15% 0 0 15%;
 }
 
 .bt {
@@ -272,4 +273,16 @@ h1 {
   left: 40%;
   width: 100px;
   bottom: 10%;
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  width: 60%;
+  border: 2px solid;
+  opacity: 1;
+}
+
+svg {
+  height: 25px;
 }
